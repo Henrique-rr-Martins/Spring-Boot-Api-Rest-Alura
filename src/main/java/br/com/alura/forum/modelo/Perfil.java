@@ -8,6 +8,7 @@ import javax.persistence.Id;
 import org.springframework.security.core.GrantedAuthority;
 
 @Entity
+//implementa GrantedAuthority para ser reconhecido como entidade de autenticação de perfil no Security.
 public class Perfil implements GrantedAuthority {
 	
 	private static final long serialVersionUID = 1L;

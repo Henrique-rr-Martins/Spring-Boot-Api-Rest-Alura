@@ -27,6 +27,11 @@ public class Usuario implements UserDetails{
 	private String email;
 	private String senha;
 	
+	
+	/*
+	 *  mapeamento feito para os perfis de autenticação
+	 *  manytomany com EAGER para ter os acessos rápido.
+	 */
 	@ManyToMany(fetch = FetchType.EAGER)
 	private List<Perfil> perfis = new ArrayList<>();
 
