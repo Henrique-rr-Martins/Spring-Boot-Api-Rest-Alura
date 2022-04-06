@@ -13,8 +13,6 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
-import br.com.alura.forum.modelo.form.TopicoForm;
-
 @Entity
 public class Topico {
 	

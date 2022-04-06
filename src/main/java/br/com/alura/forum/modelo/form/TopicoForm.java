@@ -3,7 +3,6 @@ package br.com.alura.forum.modelo.form;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
-import org.hibernate.annotations.NotFound;
 import org.hibernate.validator.constraints.Length;
 
 import br.com.alura.forum.modelo.Curso;
