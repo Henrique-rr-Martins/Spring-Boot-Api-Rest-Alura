@@ -58,6 +58,8 @@ public class SecurityConfigurations extends WebSecurityConfigurerAdapter{
 		 */
 		.antMatchers(HttpMethod.GET, "/topicos/*").permitAll()
 		.antMatchers(HttpMethod.POST, "/auth").permitAll()
+		// actuator
+		.antMatchers(HttpMethod.GET, "/actuator/**").permitAll()
 		// indica o bloqueio de todos os endpoints que não foram liberados anteriormente com o método permitAll().
 		.anyRequest().authenticated()
 		/*
