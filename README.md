@@ -1,7 +1,7 @@
 # Spring-Boot-Api-Rest-Alura-Path
 Alura's course about Spring Boot
 
-# Spring Boot API Rest: Construindo uma API
+## Spring Boot API Rest: Construindo uma API
 Topics:
 * Spring Boot
 * Spring Data JPA
